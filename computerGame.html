@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>
+        Schere, Stein, Papier
+    </h1>
+
+    <h2>
+        ein Minispiel - gegen den Computer
+    </h2>
+
+    <a href="index.html">
+        <button id="computer-btn">
+            doch ein 1v1 gegen einen anderen?
+        </button>
+    </a>
+
+    <div class="div-aufforderung">
+        Du bist der Spieler. Wähle deine Option und spiele.
+    </div>
+
+    <div id="buttons-el">
+        
+        <button onclick="showButtons()">
+            Optionen anzeigen
+        </button>
+
+        <button id="reset-btn" onclick="resetGame()">
+            reset
+        </button>
+    
+    </div>
+    
+
+    <div class="div-beide-spieler">
+
+        <div>
+            
+            <div id="spieler1Div">
+                Spieler
+            </div>
+            
+            <div id="entscheidungsButtonsEl">
+
+            <button onclick="schereClicked()" class="dreiButtons" id="schereButton">Schere</button>
+            <button onclick="steinClicked()" class="dreiButtons" id="steinButton">Stein</button>
+            <button onclick="papierClicked()" class="dreiButtons" id="papierButton">Papier</button>
+
+            </div>
+            
+
+        </div>
+
+        <div>
+
+            <p id="ergebnisBeideEl"></p>
+
+        </div>
+
+        <div>
+            
+            <div id="computerDiv">
+                Computer
+            </div>
+            
+
+            <p id="ergebnisComputer">Ergebnis: </p>
+
+        </div>
+
+    </div>
+
+    <p id="counter-el"></p>
+
+
+
+    <script src="scriptComputer.js"></script>
+
+</body>

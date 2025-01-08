@@ -1,0 +1,120 @@
+body {
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-size: 25;
+    font-style: normal;
+    text-align: center;
+    background-image: url(table_background.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    font-family: "Berkshire Swash", serif;
+    font-weight: 600;
+    font-size: 80;
+    font-style: normal;
+}
+
+h2 {
+    margin-top: -40;
+    font-weight: 800;
+    font-size: 40;
+}
+
+button {
+    color: rgb(206, 228, 241);
+    font-size: 40;
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    border-width: 2;
+    background-color: rgba(48, 24, 3, 0.452);
+    border-radius: 10px;
+    margin-top: 40;
+    cursor: pointer;
+}
+
+#reset-btn {
+    color: rgb(114, 18, 18);
+    background-color: rgb(207, 104, 104);
+    border-color: rgb(114, 18, 18);
+    font-size: 25;
+}
+
+#computer-btn {
+    color: rgb(18, 114, 85);
+    background-color: rgba(104, 207, 181, 0.582);
+    border-color: rgba(18, 114, 85, 0.61);
+    font-size: 25;
+    margin-top: -3;
+}
+
+.div-aufforderung {
+    font-weight: 600;
+    margin-top: 80;
+}
+
+.div-beide-spieler {
+    display: flex;
+    justify-content: space-between;
+    margin: 200;
+    margin-top: 100;
+    font-weight: 600;
+    font-size: 30;
+    font-style: italic;
+}
+
+#spieler1Div {
+    text-decoration: underline;
+}
+
+#spieler2Div {
+    text-decoration: underline;
+}
+
+#ergebnisSpieler1 {
+    font-size: 25;
+    font-style: normal;
+}
+
+#ergebnisSpieler2 {
+    font-size: 25;
+    font-style: normal;
+}
+
+#ergebnisBeideEl {
+    font-size: 40;
+}
+
+#counter-el {
+    font-size: 30;
+    font-weight: 600;
+    margin-top: -50;
+}
+
+
+
+/*---------------------------------------------------*/
+
+/* Für computerGame.html */
+
+#entscheidungsButtonsEl {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.dreiButtons {
+    margin-bottom: -20;
+    text-decoration: none;
+    font-size: 30;
+
+}
+
+#computerDiv {
+    text-decoration: underline;
+} 
+
+#ergebnisComputer {
+    font-size: 25;
+    font-style: normal
+}

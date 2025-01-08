@@ -1,0 +1,82 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>
+        Schere, Stein, Papier
+    </h1>
+
+    <h2>
+        ein Minispiel
+    </h2>
+
+    <a href="computerGame.html">
+        <button id="computer-btn">
+            ein 1v1 gegen den Computer?
+        </button>
+    </a>
+
+    <div class="div-aufforderung">
+        Bitte entscheiden, wer Spieler 1 und wer Spieler 2 ist!
+        <br>Der Reset Knopf setzt alle Spielstände zurück.</div>
+    </div>
+
+    <div id="buttons-el">
+        
+        <button onclick="gameStart()">
+            Spiel Starten
+        </button>
+
+        <button id="reset-btn" onclick="resetGame()">
+            reset
+        </button>
+    
+    </div>
+    
+
+    <div class="div-beide-spieler">
+
+        <div>
+            
+            <div id="spieler1Div">
+                Spieler 1
+            </div>
+            
+
+            <p id="ergebnisSpieler1">Ergebnis: </p>
+
+        </div>
+
+        <div>
+
+            <p id="ergebnisBeideEl"></p>
+
+        </div>
+
+        <div>
+            
+            <div id="spieler2Div">
+                Spieler 2
+            </div>
+            
+
+            <p id="ergebnisSpieler2">Ergebnis: </p>
+
+        </div>
+
+    </div>
+
+    <p id="counter-el"></p>
+
+
+
+    <script src="script.js"></script>
+
+</body>
